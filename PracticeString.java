@@ -52,6 +52,30 @@ System.out.println(firstName + "" + lastName);
 System.out.println("".length());
 System.out.println(" ".length());
 
+int Number = 45;
+
+double Decimal = Number;
+
+System.out.println(Number);
+
+System.out.println(Decimal);
+
+
+double DecimalNumber = 7.3d;
+
+int myInt = (int) DecimalNumber;
+
+System.out.println(DecimalNumber);
+
+System.out.println(myInt);
+
+
+String x = "10";
+
+int y = 20;
+
+System.out.println(x+y);
+
 
 }
 
