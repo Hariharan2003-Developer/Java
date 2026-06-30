@@ -76,6 +76,19 @@ int y = 20;
 
 System.out.println(x+y);
 
+String word = "Chicken";
+
+String result3 = word.replace('C', 'H');
+
+System.out.println(result3);
+
+
+String sentence = "I like Biriyani";
+
+String result4 = sentence.replace("Biriyani", "Parotta");
+
+System.out.println(result4);
+
 
 }
 
