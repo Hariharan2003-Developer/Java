@@ -1,13 +1,14 @@
-//class Main {
-//    public static void main(String[] args) {
-//        System.out.println(args);
-//    }
-//}
+package JavaLearnings;
 
+public class Main {
 
-
-class Main {
     public static void main(String[] args) {
-        System.out.println(args[8]);
+
+        Rank rank = new Rank();
+
+        rank.addStudent("S101", "Hari", 95, 10);
+        rank.addStudent("S102", "Kumar", 88, 11);
+
+        rank.displayStudents();
     }
 }
